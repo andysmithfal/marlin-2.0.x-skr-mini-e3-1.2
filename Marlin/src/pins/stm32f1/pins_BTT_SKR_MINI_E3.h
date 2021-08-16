@@ -47,7 +47,9 @@
 //
 #define X_STOP_PIN                          PC0
 #define Y_STOP_PIN                          PC1
-#define Z_STOP_PIN                          PC2
+// #define Z_STOP_PIN                          PC2
+// fix so i can use Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+#define Z_STOP_PIN                          PC14
 
 //
 // Z Probe must be this pins
